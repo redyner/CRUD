@@ -1,0 +1,12 @@
+#painel {
+    margin          : 25px auto;
+    border          : solid 1px rgb(0, 0, 0);
+    box-shadow      : 2px 2px 4px;
+}
+
+
+#result {
+    margin          : 25px auto;
+    border          : solid 1px rgb(0, 0, 0);
+    box-shadow      : 2px 2px 4px;
+}
