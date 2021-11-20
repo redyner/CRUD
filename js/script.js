@@ -41,7 +41,7 @@ $.ajax({
     else if(opcao == "delete") $('#result').html("Cadastrado removido Sucesso!");
     else
     {
-        $('#result').html("Nome: "+nome+"</br>Data de Nascimento: "+nascimento+"</br>Telefoneefone: "+telefone);
+        $('#result').html("Nome: "+nome+"</br>Data de Nascimento: "+nascimento+"</br>Telefone: "+telefone);
         $('#update').show();
         $('#delete').show();
     }  
