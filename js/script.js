@@ -21,7 +21,7 @@ var dados = {
     'id': id,
   }
 
-  var dados = JSON.stringify(dados);
+dados = JSON.stringify(dados);
 
 $.ajax({
     url: 'http://localhost/CRUD/sql.php',
@@ -36,8 +36,8 @@ $.ajax({
       telefone = result['telefone']
       id = result['id']
 
-    if(opcao == "create") $('#result').html("Cadastrado com Sucesso!</br>Nome: "+nome+"</br>Data de Nascimento: "+nascimento+"</br>Telefoneefone: "+telefone);
-    else if(opcao == "update") $('#result').html("Cadastrado alterado Sucesso!</br>Nome: "+nome+"</br>Data de Nascimento: "+nascimento+"</br>Telefoneefone: "+telefone);
+    if(opcao == "create") $('#result').html("Cadastrado com Sucesso!</br>Nome: "+nome+"</br>Data de Nascimento: "+nascimento+"</br>Telefone: "+telefone);
+    else if(opcao == "update") $('#result').html("Cadastrado alterado Sucesso!</br>Nome: "+nome+"</br>Data de Nascimento: "+nascimento+"</br>Telefone: "+telefone);
     else if(opcao == "delete") $('#result').html("Cadastrado removido Sucesso!");
     else
     {
